@@ -1,0 +1,18 @@
+# YouTube Video Summarizer Requirements
+
+# YouTube video downloading
+pytube>=15.0.0
+
+# Audio processing
+pydub>=0.25.1
+
+# Google Cloud Speech-to-Text API
+google-cloud-speech>=2.20.0
+
+# OpenAI API for text summarization
+openai>=1.0.0
+
+# Note: You may also need to install ffmpeg for audio processing:
+# - Ubuntu/Debian: sudo apt-get install ffmpeg
+# - macOS: brew install ffmpeg
+# - Windows: Download from https://ffmpeg.org/download.html
